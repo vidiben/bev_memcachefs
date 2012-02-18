@@ -1,0 +1,13 @@
+Source: memcachefs
+Section: utils
+Priority: optional
+Maintainer: Tsukasa Hamano <hamano@cuspy.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libfuse-dev, libmemcache-dev
+Standards-Version: 3.7.2
+
+Package: memcachefs
+Architecture: any
+Depends: libc6 (>= 2.3.6-6), libfuse2, fuse-utils
+Description: a memcache filesystem using FUSE
+ memcachefs is FUSE based filesystem which mount the memcache server.
+ It allows to view cache data of memcached as like regular files.

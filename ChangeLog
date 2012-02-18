@@ -1,0 +1,28 @@
+2007-08-11  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.5
+	* The flush() and fsync() were implemented.
+	* Code cleanup
+
+2007-07-31  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.4
+	* The open() and close() were implemented.
+	* Improvemented read() and write() performance.
+
+2007-07-28  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.3.1
+	* Fixed bug in memcachefs_getattr().
+
+2007-07-25  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.3
+
+2007-05-10  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.2
+
+2006-08-11  Tsukasa Hamano <code@cuspy.org>
+
+	* Released 0.1
